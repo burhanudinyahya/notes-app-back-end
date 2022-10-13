@@ -1,0 +1,22 @@
+version: '3.9'
+
+services:
+
+  postgres:
+    container_name: postgres-notesapp
+    image: postgres:9.6.21-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: notesappadmin
+      POSTGRES_PASSWORD: notesappadmin
+      POSTGRES_DB: notesappdb
+    ports:
+      - 5433:5432
+    volumes:
+      - ./.postgres-data:/var/lib/postgresql/data
+    networks:
+      - notesapp_network
+
+networks:
+  notesapp_network:
+    name: notesapp_network

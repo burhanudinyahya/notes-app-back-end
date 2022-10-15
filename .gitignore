@@ -133,3 +133,6 @@ dist
 
 # Docker
 .postgres-data/
+
+# WebStrom
+.idea/

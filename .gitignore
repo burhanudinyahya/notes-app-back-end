@@ -133,6 +133,8 @@ dist
 
 # Docker
 .postgres-data/
+.rabbitmq-data/
+.rabbitmq-log/
 
 # WebStrom
 .idea/

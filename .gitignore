@@ -138,3 +138,6 @@ dist
 
 # WebStrom
 .idea/
+
+# Uploaded images
+src/api/uploads/file

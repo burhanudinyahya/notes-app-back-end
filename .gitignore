@@ -135,6 +135,7 @@ dist
 .postgres-data/
 .rabbitmq-data/
 .rabbitmq-log/
+.redis-data/
 
 # WebStrom
 .idea/
